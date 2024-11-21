@@ -1,3 +1,4 @@
+# Link: https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         i = m-1
@@ -16,8 +17,10 @@ class Solution:
         #     nums1[i] = nums2[i-m]
         # nums1.sort()
 
-# Self Reflection 
 
-'''same therory as merge sort algorithms merge function 
-but just do it in a backward fashion since we have to 
-in space. '''
+# Self Reflection 
+'''
+    same therory as merge sort algorithms merge function 
+    but just do it in a backward fashion since we have to 
+    do it in space. 
+'''
