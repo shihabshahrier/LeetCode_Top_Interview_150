@@ -20,7 +20,7 @@ class Solution:
 
 # Self Reflection 
 '''
-    same therory as merge sort algorithms merge function 
+    same as merge sort algorithms merge function 
     but just do it in a backward fashion since we have to 
     do it in space. 
 '''
